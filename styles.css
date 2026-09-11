@@ -168,7 +168,7 @@ video {
 }
 
 #lunaradiopauseplaywrapper {
-    background: #232925; /* AQUI SE CAMBIA EL COLOR DEL PLAY DEL CENTRO*/
+    background: #2e2f45; /* AQUI SE CAMBIA EL COLOR DEL PLAY DEL CENTRO*/
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -197,7 +197,7 @@ video {
 
 #lunaradiobuttonvolumeoff,
 #lunaradiobuttonvolumeon {
-    background: #232925;  /* AQUI SE CAMBIA EL COLOR DE LOS ICONOS DE VOLUMEN*/
+    background: #2e2f45;  /* AQUI SE CAMBIA EL COLOR DE LOS ICONOS DE VOLUMEN*/
     border-radius: 50%;
     width: 70px;
     height: 70px;

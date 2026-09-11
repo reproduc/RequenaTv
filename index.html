@@ -258,7 +258,20 @@
             </td>
         </tr>
     </table>
+// 1. Install hls.js
+// npm install hls.js
+// or: <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
+// 2. Load and play this stream
+import Hls from 'hls.js';
+
+const hls = new Hls();
+
+hls.loadSource('https://lbgo.bozztv.com/ssh101/ssh101/requena123/playlist.m3u8');
+hls.attachMedia(videoEl);
+hls.on(Hls.Events.MANIFEST_PARSED, () => {
+  videoEl.play();
+});
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
         const HLS_URL = "https://livepush.io/hlsplayer/index.html?src=https%3A%2F%2Flbgo.bozztv.com%2Fssh101%2Fssh101%2Frequena123%2Fplaylist.m3u8";
